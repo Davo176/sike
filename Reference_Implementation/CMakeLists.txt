@@ -54,10 +54,10 @@ add_subdirectory(SIKEp610)
 
 add_subdirectory(SIKEp751)
 
-add_subdirectory(Encapp434)
+add_subdirectory(addRand434)
 
-add_subdirectory(Encapp503)
+add_subdirectory(addRand503)
 
-add_subdirectory(Encapp610)
+add_subdirectory(addRand610)
 
-add_subdirectory(Encapp751)
+add_subdirectory(addRand751)

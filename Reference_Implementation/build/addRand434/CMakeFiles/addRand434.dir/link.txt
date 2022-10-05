@@ -1,0 +1,1 @@
+/usr/bin/cc -O3   CMakeFiles/addRand434.dir/addRandTest.c.o  -o addRand434  libsikep434_encap_ref.a ../libsike_ref_for_test.a /usr/lib/x86_64-linux-gnu/libgmp.so 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../symmetric/aes.h
+stdint.h
+-
+
+../symmetric/rng.h
+stdio.h
+-
+aes.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand434/addRandTest.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+rng.h
+-
+api.h
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand434/api.h
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand434/api.h
+

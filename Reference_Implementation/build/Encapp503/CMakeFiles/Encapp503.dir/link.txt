@@ -1,1 +1,0 @@
-/usr/bin/cc -O3   CMakeFiles/Encapp503.dir/addEncapTest.c.o  -o Encapp503  libsikep503_encap_ref.a ../libsike_ref_for_test.a /usr/lib/x86_64-linux-gnu/libgmp.so 

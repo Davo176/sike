@@ -265,17 +265,17 @@ sikep751_ref/fast:
 .PHONY : sikep751_ref/fast
 
 #=============================================================================
-# Target rules for targets named Encapp434
+# Target rules for targets named addRand434
 
 # Build rule for target.
-Encapp434: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Encapp434
-.PHONY : Encapp434
+addRand434: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 addRand434
+.PHONY : addRand434
 
 # fast build rule for target.
-Encapp434/fast:
-	$(MAKE) -f Encapp434/CMakeFiles/Encapp434.dir/build.make Encapp434/CMakeFiles/Encapp434.dir/build
-.PHONY : Encapp434/fast
+addRand434/fast:
+	$(MAKE) -f addRand434/CMakeFiles/addRand434.dir/build.make addRand434/CMakeFiles/addRand434.dir/build
+.PHONY : addRand434/fast
 
 #=============================================================================
 # Target rules for targets named sikep434_encap_ref
@@ -287,21 +287,21 @@ sikep434_encap_ref: cmake_check_build_system
 
 # fast build rule for target.
 sikep434_encap_ref/fast:
-	$(MAKE) -f Encapp434/CMakeFiles/sikep434_encap_ref.dir/build.make Encapp434/CMakeFiles/sikep434_encap_ref.dir/build
+	$(MAKE) -f addRand434/CMakeFiles/sikep434_encap_ref.dir/build.make addRand434/CMakeFiles/sikep434_encap_ref.dir/build
 .PHONY : sikep434_encap_ref/fast
 
 #=============================================================================
-# Target rules for targets named Encapp503
+# Target rules for targets named addRand503
 
 # Build rule for target.
-Encapp503: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Encapp503
-.PHONY : Encapp503
+addRand503: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 addRand503
+.PHONY : addRand503
 
 # fast build rule for target.
-Encapp503/fast:
-	$(MAKE) -f Encapp503/CMakeFiles/Encapp503.dir/build.make Encapp503/CMakeFiles/Encapp503.dir/build
-.PHONY : Encapp503/fast
+addRand503/fast:
+	$(MAKE) -f addRand503/CMakeFiles/addRand503.dir/build.make addRand503/CMakeFiles/addRand503.dir/build
+.PHONY : addRand503/fast
 
 #=============================================================================
 # Target rules for targets named sikep503_encap_ref
@@ -313,21 +313,21 @@ sikep503_encap_ref: cmake_check_build_system
 
 # fast build rule for target.
 sikep503_encap_ref/fast:
-	$(MAKE) -f Encapp503/CMakeFiles/sikep503_encap_ref.dir/build.make Encapp503/CMakeFiles/sikep503_encap_ref.dir/build
+	$(MAKE) -f addRand503/CMakeFiles/sikep503_encap_ref.dir/build.make addRand503/CMakeFiles/sikep503_encap_ref.dir/build
 .PHONY : sikep503_encap_ref/fast
 
 #=============================================================================
-# Target rules for targets named Encapp610
+# Target rules for targets named addRand610
 
 # Build rule for target.
-Encapp610: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Encapp610
-.PHONY : Encapp610
+addRand610: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 addRand610
+.PHONY : addRand610
 
 # fast build rule for target.
-Encapp610/fast:
-	$(MAKE) -f Encapp610/CMakeFiles/Encapp610.dir/build.make Encapp610/CMakeFiles/Encapp610.dir/build
-.PHONY : Encapp610/fast
+addRand610/fast:
+	$(MAKE) -f addRand610/CMakeFiles/addRand610.dir/build.make addRand610/CMakeFiles/addRand610.dir/build
+.PHONY : addRand610/fast
 
 #=============================================================================
 # Target rules for targets named sikep610_encap_ref
@@ -339,21 +339,21 @@ sikep610_encap_ref: cmake_check_build_system
 
 # fast build rule for target.
 sikep610_encap_ref/fast:
-	$(MAKE) -f Encapp610/CMakeFiles/sikep610_encap_ref.dir/build.make Encapp610/CMakeFiles/sikep610_encap_ref.dir/build
+	$(MAKE) -f addRand610/CMakeFiles/sikep610_encap_ref.dir/build.make addRand610/CMakeFiles/sikep610_encap_ref.dir/build
 .PHONY : sikep610_encap_ref/fast
 
 #=============================================================================
-# Target rules for targets named Encapp751
+# Target rules for targets named addRand751
 
 # Build rule for target.
-Encapp751: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Encapp751
-.PHONY : Encapp751
+addRand751: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 addRand751
+.PHONY : addRand751
 
 # fast build rule for target.
-Encapp751/fast:
-	$(MAKE) -f Encapp751/CMakeFiles/Encapp751.dir/build.make Encapp751/CMakeFiles/Encapp751.dir/build
-.PHONY : Encapp751/fast
+addRand751/fast:
+	$(MAKE) -f addRand751/CMakeFiles/addRand751.dir/build.make addRand751/CMakeFiles/addRand751.dir/build
+.PHONY : addRand751/fast
 
 #=============================================================================
 # Target rules for targets named sikep751_encap_ref
@@ -365,7 +365,7 @@ sikep751_encap_ref: cmake_check_build_system
 
 # fast build rule for target.
 sikep751_encap_ref/fast:
-	$(MAKE) -f Encapp751/CMakeFiles/sikep751_encap_ref.dir/build.make Encapp751/CMakeFiles/sikep751_encap_ref.dir/build
+	$(MAKE) -f addRand751/CMakeFiles/sikep751_encap_ref.dir/build.make addRand751/CMakeFiles/sikep751_encap_ref.dir/build
 .PHONY : sikep751_encap_ref/fast
 
 src/api_generic.o: src/api_generic.c.o
@@ -769,13 +769,13 @@ help:
 	@echo "... sikep610_ref"
 	@echo "... kat_SIKEp751"
 	@echo "... sikep751_ref"
-	@echo "... Encapp434"
+	@echo "... addRand434"
 	@echo "... sikep434_encap_ref"
-	@echo "... Encapp503"
+	@echo "... addRand503"
 	@echo "... sikep503_encap_ref"
-	@echo "... Encapp610"
+	@echo "... addRand610"
 	@echo "... sikep610_encap_ref"
-	@echo "... Encapp751"
+	@echo "... addRand751"
 	@echo "... sikep751_encap_ref"
 	@echo "... src/api_generic.o"
 	@echo "... src/api_generic.i"

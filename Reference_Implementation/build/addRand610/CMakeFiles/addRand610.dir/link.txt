@@ -1,0 +1,1 @@
+/usr/bin/cc -O3   CMakeFiles/addRand610.dir/addRandTest.c.o  -o addRand610  libsikep610_encap_ref.a ../libsike_ref_for_test.a /usr/lib/x86_64-linux-gnu/libgmp.so 
