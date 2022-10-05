@@ -1,0 +1,164 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/api_generic.h
+sike_params.h
+-
+
+../include/encoding.h
+sike_params.h
+-
+sidh.h
+-
+
+../include/fp.h
+gmp.h
+-
+
+../include/fp2.h
+fp.h
+-
+
+../include/isogeny.h
+montgomery.h
+-
+
+../include/montgomery.h
+fp2.h
+-
+
+../include/sidh.h
+fp2.h
+-
+sike_params.h
+-
+sike.h
+-
+
+../include/sike.h
+fp.h
+-
+
+../include/sike_params.h
+montgomery.h
+-
+
+../symmetric/aes.h
+stdint.h
+-
+
+../symmetric/fips202.h
+stdint.h
+-
+
+../symmetric/random.h
+
+../symmetric/rng.h
+stdio.h
+-
+aes.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/api_generic.c
+sidh.h
+-
+encoding.h
+-
+api_generic.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/encoding.c
+stdlib.h
+-
+sike_params.h
+-
+encoding.h
+-
+string.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/fp.c
+fp.h
+-
+encoding.h
+-
+rng.h
+-
+stdlib.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/fp2.c
+fp2.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/isogeny.c
+isogeny.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/montgomery.c
+montgomery.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/sidh.c
+sike_params.h
+-
+sidh.h
+-
+isogeny.h
+-
+stdlib.h
+-
+random.h
+-
+encoding.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/sike.c
+sike_params.h
+-
+fips202.h
+-
+encoding.h
+-
+stdlib.h
+-
+string.h
+-
+rng.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/sike_params.c
+sike_params.h
+-
+stdlib.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/fips202.c
+stdint.h
+-
+assert.h
+-
+fips202.h
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/fips202.h
+string.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/fips202.h
+stdint.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/random.c
+random.h
+-
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+

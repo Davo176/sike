@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/api_generic.h
+sike_params.h
+-
+
+../include/fp.h
+gmp.h
+-
+
+../include/fp2.h
+fp.h
+-
+
+../include/montgomery.h
+fp2.h
+-
+
+../include/sike_params.h
+montgomery.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp503/api.c
+api.h
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp503/api.h
+sike_params.h
+-
+api_generic.h
+-
+
+/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp503/api.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -O3   CMakeFiles/kat_SIKEp610.dir/PQCtestKAT_kem.c.o  -o kat_SIKEp610  libsikep610_ref.a ../libsike_ref_for_test.a /usr/lib/x86_64-linux-gnu/libgmp.so 

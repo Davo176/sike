@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsikep434_encap_ref.a  CMakeFiles/sikep434_encap_ref.dir/api.c.o
+/usr/bin/ranlib libsikep434_encap_ref.a

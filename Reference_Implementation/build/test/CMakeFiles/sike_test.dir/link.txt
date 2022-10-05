@@ -1,0 +1,1 @@
+/usr/bin/cc -O3   CMakeFiles/sike_test.dir/test.c.o CMakeFiles/sike_test.dir/printing.c.o CMakeFiles/sike_test.dir/test_arith.c.o CMakeFiles/sike_test.dir/test_sike.c.o CMakeFiles/sike_test.dir/test_extras.c.o  -o sike_test  ../libsike_ref.a /usr/lib/x86_64-linux-gnu/libgmp.so 
