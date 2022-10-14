@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation"
+CMAKE_SOURCE_DIR = /home/will/topics/refSources/sike/Reference_Implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build"
+CMAKE_BINARY_DIR = /home/will/topics/refSources/sike/Reference_Implementation/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/test/CMakeFiles/progress.marks"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" 0
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles /home/will/topics/refSources/sike/Reference_Implementation/build/test/CMakeFiles/progress.marks
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/sike_test.dir/rule:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/sike_test.dir/rule
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/sike_test.dir/rule
 .PHONY : test/CMakeFiles/sike_test.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ sike_test: test/CMakeFiles/sike_test.dir/rule
 
 # fast build rule for target.
 sike_test/fast:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/build
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/build
 .PHONY : sike_test/fast
 
 printing.o: printing.c.o
@@ -142,7 +142,7 @@ printing.o: printing.c.o
 
 # target to build an object file
 printing.c.o:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/printing.c.o
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/printing.c.o
 .PHONY : printing.c.o
 
 printing.i: printing.c.i
@@ -151,7 +151,7 @@ printing.i: printing.c.i
 
 # target to preprocess a source file
 printing.c.i:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/printing.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/printing.c.i
 .PHONY : printing.c.i
 
 printing.s: printing.c.s
@@ -160,7 +160,7 @@ printing.s: printing.c.s
 
 # target to generate assembly for a file
 printing.c.s:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/printing.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/printing.c.s
 .PHONY : printing.c.s
 
 test.o: test.c.o
@@ -169,7 +169,7 @@ test.o: test.c.o
 
 # target to build an object file
 test.c.o:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test.c.o
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test.c.o
 .PHONY : test.c.o
 
 test.i: test.c.i
@@ -178,7 +178,7 @@ test.i: test.c.i
 
 # target to preprocess a source file
 test.c.i:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test.c.i
 .PHONY : test.c.i
 
 test.s: test.c.s
@@ -187,7 +187,7 @@ test.s: test.c.s
 
 # target to generate assembly for a file
 test.c.s:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test.c.s
 .PHONY : test.c.s
 
 test_arith.o: test_arith.c.o
@@ -196,7 +196,7 @@ test_arith.o: test_arith.c.o
 
 # target to build an object file
 test_arith.c.o:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_arith.c.o
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_arith.c.o
 .PHONY : test_arith.c.o
 
 test_arith.i: test_arith.c.i
@@ -205,7 +205,7 @@ test_arith.i: test_arith.c.i
 
 # target to preprocess a source file
 test_arith.c.i:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_arith.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_arith.c.i
 .PHONY : test_arith.c.i
 
 test_arith.s: test_arith.c.s
@@ -214,7 +214,7 @@ test_arith.s: test_arith.c.s
 
 # target to generate assembly for a file
 test_arith.c.s:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_arith.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_arith.c.s
 .PHONY : test_arith.c.s
 
 test_extras.o: test_extras.c.o
@@ -223,7 +223,7 @@ test_extras.o: test_extras.c.o
 
 # target to build an object file
 test_extras.c.o:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_extras.c.o
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_extras.c.o
 .PHONY : test_extras.c.o
 
 test_extras.i: test_extras.c.i
@@ -232,7 +232,7 @@ test_extras.i: test_extras.c.i
 
 # target to preprocess a source file
 test_extras.c.i:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_extras.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_extras.c.i
 .PHONY : test_extras.c.i
 
 test_extras.s: test_extras.c.s
@@ -241,7 +241,7 @@ test_extras.s: test_extras.c.s
 
 # target to generate assembly for a file
 test_extras.c.s:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_extras.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_extras.c.s
 .PHONY : test_extras.c.s
 
 test_sike.o: test_sike.c.o
@@ -250,7 +250,7 @@ test_sike.o: test_sike.c.o
 
 # target to build an object file
 test_sike.c.o:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_sike.c.o
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_sike.c.o
 .PHONY : test_sike.c.o
 
 test_sike.i: test_sike.c.i
@@ -259,7 +259,7 @@ test_sike.i: test_sike.c.i
 
 # target to preprocess a source file
 test_sike.c.i:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_sike.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_sike.c.i
 .PHONY : test_sike.c.i
 
 test_sike.s: test_sike.c.s
@@ -268,7 +268,7 @@ test_sike.s: test_sike.c.s
 
 # target to generate assembly for a file
 test_sike.c.s:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_sike.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f test/CMakeFiles/sike_test.dir/build.make test/CMakeFiles/sike_test.dir/test_sike.c.s
 .PHONY : test_sike.c.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation"
+CMAKE_SOURCE_DIR = /home/will/topics/refSources/sike/Reference_Implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build"
+CMAKE_BINARY_DIR = /home/will/topics/refSources/sike/Reference_Implementation/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,9 +91,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles /home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -367,6 +367,318 @@ sikep751_encap_ref: cmake_check_build_system
 sikep751_encap_ref/fast:
 	$(MAKE) -f addRand751/CMakeFiles/sikep751_encap_ref.dir/build.make addRand751/CMakeFiles/sikep751_encap_ref.dir/build
 .PHONY : sikep751_encap_ref/fast
+
+#=============================================================================
+# Target rules for targets named createKeyPairs434
+
+# Build rule for target.
+createKeyPairs434: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createKeyPairs434
+.PHONY : createKeyPairs434
+
+# fast build rule for target.
+createKeyPairs434/fast:
+	$(MAKE) -f createKeyPairs434/CMakeFiles/createKeyPairs434.dir/build.make createKeyPairs434/CMakeFiles/createKeyPairs434.dir/build
+.PHONY : createKeyPairs434/fast
+
+#=============================================================================
+# Target rules for targets named sikep434_createKeyPairs_ref
+
+# Build rule for target.
+sikep434_createKeyPairs_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep434_createKeyPairs_ref
+.PHONY : sikep434_createKeyPairs_ref
+
+# fast build rule for target.
+sikep434_createKeyPairs_ref/fast:
+	$(MAKE) -f createKeyPairs434/CMakeFiles/sikep434_createKeyPairs_ref.dir/build.make createKeyPairs434/CMakeFiles/sikep434_createKeyPairs_ref.dir/build
+.PHONY : sikep434_createKeyPairs_ref/fast
+
+#=============================================================================
+# Target rules for targets named createKeyPairs503
+
+# Build rule for target.
+createKeyPairs503: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createKeyPairs503
+.PHONY : createKeyPairs503
+
+# fast build rule for target.
+createKeyPairs503/fast:
+	$(MAKE) -f createKeyPairs503/CMakeFiles/createKeyPairs503.dir/build.make createKeyPairs503/CMakeFiles/createKeyPairs503.dir/build
+.PHONY : createKeyPairs503/fast
+
+#=============================================================================
+# Target rules for targets named sikep503_createKeyPairs_ref
+
+# Build rule for target.
+sikep503_createKeyPairs_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep503_createKeyPairs_ref
+.PHONY : sikep503_createKeyPairs_ref
+
+# fast build rule for target.
+sikep503_createKeyPairs_ref/fast:
+	$(MAKE) -f createKeyPairs503/CMakeFiles/sikep503_createKeyPairs_ref.dir/build.make createKeyPairs503/CMakeFiles/sikep503_createKeyPairs_ref.dir/build
+.PHONY : sikep503_createKeyPairs_ref/fast
+
+#=============================================================================
+# Target rules for targets named createKeyPairs610
+
+# Build rule for target.
+createKeyPairs610: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createKeyPairs610
+.PHONY : createKeyPairs610
+
+# fast build rule for target.
+createKeyPairs610/fast:
+	$(MAKE) -f createKeyPairs610/CMakeFiles/createKeyPairs610.dir/build.make createKeyPairs610/CMakeFiles/createKeyPairs610.dir/build
+.PHONY : createKeyPairs610/fast
+
+#=============================================================================
+# Target rules for targets named sikep610_createKeyPairs_ref
+
+# Build rule for target.
+sikep610_createKeyPairs_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep610_createKeyPairs_ref
+.PHONY : sikep610_createKeyPairs_ref
+
+# fast build rule for target.
+sikep610_createKeyPairs_ref/fast:
+	$(MAKE) -f createKeyPairs610/CMakeFiles/sikep610_createKeyPairs_ref.dir/build.make createKeyPairs610/CMakeFiles/sikep610_createKeyPairs_ref.dir/build
+.PHONY : sikep610_createKeyPairs_ref/fast
+
+#=============================================================================
+# Target rules for targets named createKeyPairs751
+
+# Build rule for target.
+createKeyPairs751: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createKeyPairs751
+.PHONY : createKeyPairs751
+
+# fast build rule for target.
+createKeyPairs751/fast:
+	$(MAKE) -f createKeyPairs751/CMakeFiles/createKeyPairs751.dir/build.make createKeyPairs751/CMakeFiles/createKeyPairs751.dir/build
+.PHONY : createKeyPairs751/fast
+
+#=============================================================================
+# Target rules for targets named sikep751_createKeyPairs_ref
+
+# Build rule for target.
+sikep751_createKeyPairs_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep751_createKeyPairs_ref
+.PHONY : sikep751_createKeyPairs_ref
+
+# fast build rule for target.
+sikep751_createKeyPairs_ref/fast:
+	$(MAKE) -f createKeyPairs751/CMakeFiles/sikep751_createKeyPairs_ref.dir/build.make createKeyPairs751/CMakeFiles/sikep751_createKeyPairs_ref.dir/build
+.PHONY : sikep751_createKeyPairs_ref/fast
+
+#=============================================================================
+# Target rules for targets named createEncapsulations434
+
+# Build rule for target.
+createEncapsulations434: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createEncapsulations434
+.PHONY : createEncapsulations434
+
+# fast build rule for target.
+createEncapsulations434/fast:
+	$(MAKE) -f createEncapsulation434/CMakeFiles/createEncapsulations434.dir/build.make createEncapsulation434/CMakeFiles/createEncapsulations434.dir/build
+.PHONY : createEncapsulations434/fast
+
+#=============================================================================
+# Target rules for targets named sikep434_createEncapsulations_ref
+
+# Build rule for target.
+sikep434_createEncapsulations_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep434_createEncapsulations_ref
+.PHONY : sikep434_createEncapsulations_ref
+
+# fast build rule for target.
+sikep434_createEncapsulations_ref/fast:
+	$(MAKE) -f createEncapsulation434/CMakeFiles/sikep434_createEncapsulations_ref.dir/build.make createEncapsulation434/CMakeFiles/sikep434_createEncapsulations_ref.dir/build
+.PHONY : sikep434_createEncapsulations_ref/fast
+
+#=============================================================================
+# Target rules for targets named createEncapsulations503
+
+# Build rule for target.
+createEncapsulations503: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createEncapsulations503
+.PHONY : createEncapsulations503
+
+# fast build rule for target.
+createEncapsulations503/fast:
+	$(MAKE) -f createEncapsulation503/CMakeFiles/createEncapsulations503.dir/build.make createEncapsulation503/CMakeFiles/createEncapsulations503.dir/build
+.PHONY : createEncapsulations503/fast
+
+#=============================================================================
+# Target rules for targets named sikep503_createEncapsulations_ref
+
+# Build rule for target.
+sikep503_createEncapsulations_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep503_createEncapsulations_ref
+.PHONY : sikep503_createEncapsulations_ref
+
+# fast build rule for target.
+sikep503_createEncapsulations_ref/fast:
+	$(MAKE) -f createEncapsulation503/CMakeFiles/sikep503_createEncapsulations_ref.dir/build.make createEncapsulation503/CMakeFiles/sikep503_createEncapsulations_ref.dir/build
+.PHONY : sikep503_createEncapsulations_ref/fast
+
+#=============================================================================
+# Target rules for targets named createEncapsulations610
+
+# Build rule for target.
+createEncapsulations610: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createEncapsulations610
+.PHONY : createEncapsulations610
+
+# fast build rule for target.
+createEncapsulations610/fast:
+	$(MAKE) -f createEncapsulation610/CMakeFiles/createEncapsulations610.dir/build.make createEncapsulation610/CMakeFiles/createEncapsulations610.dir/build
+.PHONY : createEncapsulations610/fast
+
+#=============================================================================
+# Target rules for targets named sikep610_createEncapsulations_ref
+
+# Build rule for target.
+sikep610_createEncapsulations_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep610_createEncapsulations_ref
+.PHONY : sikep610_createEncapsulations_ref
+
+# fast build rule for target.
+sikep610_createEncapsulations_ref/fast:
+	$(MAKE) -f createEncapsulation610/CMakeFiles/sikep610_createEncapsulations_ref.dir/build.make createEncapsulation610/CMakeFiles/sikep610_createEncapsulations_ref.dir/build
+.PHONY : sikep610_createEncapsulations_ref/fast
+
+#=============================================================================
+# Target rules for targets named createEncapsulations751
+
+# Build rule for target.
+createEncapsulations751: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 createEncapsulations751
+.PHONY : createEncapsulations751
+
+# fast build rule for target.
+createEncapsulations751/fast:
+	$(MAKE) -f createEncapsulation751/CMakeFiles/createEncapsulations751.dir/build.make createEncapsulation751/CMakeFiles/createEncapsulations751.dir/build
+.PHONY : createEncapsulations751/fast
+
+#=============================================================================
+# Target rules for targets named sikep751_createEncapsulations_ref
+
+# Build rule for target.
+sikep751_createEncapsulations_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep751_createEncapsulations_ref
+.PHONY : sikep751_createEncapsulations_ref
+
+# fast build rule for target.
+sikep751_createEncapsulations_ref/fast:
+	$(MAKE) -f createEncapsulation751/CMakeFiles/sikep751_createEncapsulations_ref.dir/build.make createEncapsulation751/CMakeFiles/sikep751_createEncapsulations_ref.dir/build
+.PHONY : sikep751_createEncapsulations_ref/fast
+
+#=============================================================================
+# Target rules for targets named checkDecapsulations434
+
+# Build rule for target.
+checkDecapsulations434: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 checkDecapsulations434
+.PHONY : checkDecapsulations434
+
+# fast build rule for target.
+checkDecapsulations434/fast:
+	$(MAKE) -f checkDecapsulations434/CMakeFiles/checkDecapsulations434.dir/build.make checkDecapsulations434/CMakeFiles/checkDecapsulations434.dir/build
+.PHONY : checkDecapsulations434/fast
+
+#=============================================================================
+# Target rules for targets named sikep434_checkDecapsulations_ref
+
+# Build rule for target.
+sikep434_checkDecapsulations_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep434_checkDecapsulations_ref
+.PHONY : sikep434_checkDecapsulations_ref
+
+# fast build rule for target.
+sikep434_checkDecapsulations_ref/fast:
+	$(MAKE) -f checkDecapsulations434/CMakeFiles/sikep434_checkDecapsulations_ref.dir/build.make checkDecapsulations434/CMakeFiles/sikep434_checkDecapsulations_ref.dir/build
+.PHONY : sikep434_checkDecapsulations_ref/fast
+
+#=============================================================================
+# Target rules for targets named checkDecapsulations503
+
+# Build rule for target.
+checkDecapsulations503: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 checkDecapsulations503
+.PHONY : checkDecapsulations503
+
+# fast build rule for target.
+checkDecapsulations503/fast:
+	$(MAKE) -f checkDecapsulations503/CMakeFiles/checkDecapsulations503.dir/build.make checkDecapsulations503/CMakeFiles/checkDecapsulations503.dir/build
+.PHONY : checkDecapsulations503/fast
+
+#=============================================================================
+# Target rules for targets named sikep503_checkDecapsulations_ref
+
+# Build rule for target.
+sikep503_checkDecapsulations_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep503_checkDecapsulations_ref
+.PHONY : sikep503_checkDecapsulations_ref
+
+# fast build rule for target.
+sikep503_checkDecapsulations_ref/fast:
+	$(MAKE) -f checkDecapsulations503/CMakeFiles/sikep503_checkDecapsulations_ref.dir/build.make checkDecapsulations503/CMakeFiles/sikep503_checkDecapsulations_ref.dir/build
+.PHONY : sikep503_checkDecapsulations_ref/fast
+
+#=============================================================================
+# Target rules for targets named checkDecapsulations610
+
+# Build rule for target.
+checkDecapsulations610: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 checkDecapsulations610
+.PHONY : checkDecapsulations610
+
+# fast build rule for target.
+checkDecapsulations610/fast:
+	$(MAKE) -f checkDecapsulations610/CMakeFiles/checkDecapsulations610.dir/build.make checkDecapsulations610/CMakeFiles/checkDecapsulations610.dir/build
+.PHONY : checkDecapsulations610/fast
+
+#=============================================================================
+# Target rules for targets named sikep610_checkDecapsulations_ref
+
+# Build rule for target.
+sikep610_checkDecapsulations_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep610_checkDecapsulations_ref
+.PHONY : sikep610_checkDecapsulations_ref
+
+# fast build rule for target.
+sikep610_checkDecapsulations_ref/fast:
+	$(MAKE) -f checkDecapsulations610/CMakeFiles/sikep610_checkDecapsulations_ref.dir/build.make checkDecapsulations610/CMakeFiles/sikep610_checkDecapsulations_ref.dir/build
+.PHONY : sikep610_checkDecapsulations_ref/fast
+
+#=============================================================================
+# Target rules for targets named checkDecapsulations751
+
+# Build rule for target.
+checkDecapsulations751: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 checkDecapsulations751
+.PHONY : checkDecapsulations751
+
+# fast build rule for target.
+checkDecapsulations751/fast:
+	$(MAKE) -f checkDecapsulations751/CMakeFiles/checkDecapsulations751.dir/build.make checkDecapsulations751/CMakeFiles/checkDecapsulations751.dir/build
+.PHONY : checkDecapsulations751/fast
+
+#=============================================================================
+# Target rules for targets named sikep751_checkDecapsulations_ref
+
+# Build rule for target.
+sikep751_checkDecapsulations_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sikep751_checkDecapsulations_ref
+.PHONY : sikep751_checkDecapsulations_ref
+
+# fast build rule for target.
+sikep751_checkDecapsulations_ref/fast:
+	$(MAKE) -f checkDecapsulations751/CMakeFiles/sikep751_checkDecapsulations_ref.dir/build.make checkDecapsulations751/CMakeFiles/sikep751_checkDecapsulations_ref.dir/build
+.PHONY : sikep751_checkDecapsulations_ref/fast
 
 src/api_generic.o: src/api_generic.c.o
 
@@ -777,6 +1089,30 @@ help:
 	@echo "... sikep610_encap_ref"
 	@echo "... addRand751"
 	@echo "... sikep751_encap_ref"
+	@echo "... createKeyPairs434"
+	@echo "... sikep434_createKeyPairs_ref"
+	@echo "... createKeyPairs503"
+	@echo "... sikep503_createKeyPairs_ref"
+	@echo "... createKeyPairs610"
+	@echo "... sikep610_createKeyPairs_ref"
+	@echo "... createKeyPairs751"
+	@echo "... sikep751_createKeyPairs_ref"
+	@echo "... createEncapsulations434"
+	@echo "... sikep434_createEncapsulations_ref"
+	@echo "... createEncapsulations503"
+	@echo "... sikep503_createEncapsulations_ref"
+	@echo "... createEncapsulations610"
+	@echo "... sikep610_createEncapsulations_ref"
+	@echo "... createEncapsulations751"
+	@echo "... sikep751_createEncapsulations_ref"
+	@echo "... checkDecapsulations434"
+	@echo "... sikep434_checkDecapsulations_ref"
+	@echo "... checkDecapsulations503"
+	@echo "... sikep503_checkDecapsulations_ref"
+	@echo "... checkDecapsulations610"
+	@echo "... sikep610_checkDecapsulations_ref"
+	@echo "... checkDecapsulations751"
+	@echo "... sikep751_checkDecapsulations_ref"
 	@echo "... src/api_generic.o"
 	@echo "... src/api_generic.i"
 	@echo "... src/api_generic.s"

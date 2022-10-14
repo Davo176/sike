@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsikep610_createEncapsulations_ref.a  CMakeFiles/sikep610_createEncapsulations_ref.dir/api.c.o
+/usr/bin/ranlib libsikep610_createEncapsulations_ref.a

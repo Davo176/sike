@@ -70,7 +70,7 @@ stdio.h
 aes.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/api_generic.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/api_generic.c
 sidh.h
 -
 encoding.h
@@ -78,7 +78,7 @@ encoding.h
 api_generic.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/encoding.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/encoding.c
 stdlib.h
 -
 sike_params.h
@@ -88,7 +88,7 @@ encoding.h
 string.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/fp.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/fp.c
 fp.h
 -
 encoding.h
@@ -98,19 +98,19 @@ rng.h
 stdlib.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/fp2.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/fp2.c
 fp2.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/isogeny.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/isogeny.c
 isogeny.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/montgomery.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/montgomery.c
 montgomery.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/sidh.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/sidh.c
 sike_params.h
 -
 sidh.h
@@ -124,7 +124,7 @@ random.h
 encoding.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/sike.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/sike.c
 sike_params.h
 -
 fips202.h
@@ -138,13 +138,13 @@ string.h
 rng.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/src/sike_params.c
+/home/will/topics/refSources/sike/Reference_Implementation/src/sike_params.c
 sike_params.h
 -
 stdlib.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/aes_c.c
+/home/will/topics/refSources/sike/Reference_Implementation/symmetric/aes_c.c
 stdint.h
 -
 string.h
@@ -152,27 +152,27 @@ string.h
 aes_local.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/fips202.c
+/home/will/topics/refSources/sike/Reference_Implementation/symmetric/fips202.c
 stdint.h
 -
 assert.h
 -
 fips202.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/fips202.h
+/home/will/topics/refSources/sike/Reference_Implementation/symmetric/fips202.h
 string.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/fips202.h
+/home/will/topics/refSources/sike/Reference_Implementation/symmetric/fips202.h
 stdint.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/rng.c
+/home/will/topics/refSources/sike/Reference_Implementation/symmetric/rng.c
 string.h
 -
 rng.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/rng.h
+/home/will/topics/refSources/sike/Reference_Implementation/symmetric/rng.h
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric/rng.h
+/home/will/topics/refSources/sike/Reference_Implementation/symmetric/rng.h
 stdio.h
 -
 aes.h

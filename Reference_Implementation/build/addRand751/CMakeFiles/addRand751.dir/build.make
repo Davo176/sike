@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation"
+CMAKE_SOURCE_DIR = /home/will/topics/refSources/sike/Reference_Implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build"
+CMAKE_BINARY_DIR = /home/will/topics/refSources/sike/Reference_Implementation/build
 
 # Include any dependencies generated for this target.
 include addRand751/CMakeFiles/addRand751.dir/depend.make
@@ -59,16 +59,16 @@ include addRand751/CMakeFiles/addRand751.dir/flags.make
 
 addRand751/CMakeFiles/addRand751.dir/addRandTest.c.o: addRand751/CMakeFiles/addRand751.dir/flags.make
 addRand751/CMakeFiles/addRand751.dir/addRandTest.c.o: ../addRand751/addRandTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object addRand751/CMakeFiles/addRand751.dir/addRandTest.c.o"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand751" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/addRand751.dir/addRandTest.c.o   -c "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand751/addRandTest.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object addRand751/CMakeFiles/addRand751.dir/addRandTest.c.o"
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand751 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/addRand751.dir/addRandTest.c.o   -c /home/will/topics/refSources/sike/Reference_Implementation/addRand751/addRandTest.c
 
 addRand751/CMakeFiles/addRand751.dir/addRandTest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/addRand751.dir/addRandTest.c.i"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand751" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand751/addRandTest.c" > CMakeFiles/addRand751.dir/addRandTest.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand751 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/will/topics/refSources/sike/Reference_Implementation/addRand751/addRandTest.c > CMakeFiles/addRand751.dir/addRandTest.c.i
 
 addRand751/CMakeFiles/addRand751.dir/addRandTest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/addRand751.dir/addRandTest.c.s"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand751" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand751/addRandTest.c" -o CMakeFiles/addRand751.dir/addRandTest.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand751 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/will/topics/refSources/sike/Reference_Implementation/addRand751/addRandTest.c -o CMakeFiles/addRand751.dir/addRandTest.c.s
 
 # Object files for target addRand751
 addRand751_OBJECTS = \
@@ -83,8 +83,8 @@ addRand751/addRand751: addRand751/libsikep751_encap_ref.a
 addRand751/addRand751: libsike_ref_for_test.a
 addRand751/addRand751: /usr/lib/x86_64-linux-gnu/libgmp.so
 addRand751/addRand751: addRand751/CMakeFiles/addRand751.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable addRand751"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand751" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/addRand751.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable addRand751"
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand751 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/addRand751.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 addRand751/CMakeFiles/addRand751.dir/build: addRand751/addRand751
@@ -92,10 +92,10 @@ addRand751/CMakeFiles/addRand751.dir/build: addRand751/addRand751
 .PHONY : addRand751/CMakeFiles/addRand751.dir/build
 
 addRand751/CMakeFiles/addRand751.dir/clean:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand751" && $(CMAKE_COMMAND) -P CMakeFiles/addRand751.dir/cmake_clean.cmake
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand751 && $(CMAKE_COMMAND) -P CMakeFiles/addRand751.dir/cmake_clean.cmake
 .PHONY : addRand751/CMakeFiles/addRand751.dir/clean
 
 addRand751/CMakeFiles/addRand751.dir/depend:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand751" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand751" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand751/CMakeFiles/addRand751.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/will/topics/refSources/sike/Reference_Implementation /home/will/topics/refSources/sike/Reference_Implementation/addRand751 /home/will/topics/refSources/sike/Reference_Implementation/build /home/will/topics/refSources/sike/Reference_Implementation/build/addRand751 /home/will/topics/refSources/sike/Reference_Implementation/build/addRand751/CMakeFiles/addRand751.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : addRand751/CMakeFiles/addRand751.dir/depend
 

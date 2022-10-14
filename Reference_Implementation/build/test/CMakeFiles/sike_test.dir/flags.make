@@ -6,5 +6,5 @@ C_FLAGS = -O3   -std=gnu99
 
 C_DEFINES = -DOS_TARGET=1 -DTARGET=3
 
-C_INCLUDES = -I"/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/include" -I"/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/symmetric" 
+C_INCLUDES = -I/home/will/topics/refSources/sike/Reference_Implementation/include -I/home/will/topics/refSources/sike/Reference_Implementation/symmetric 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation"
+CMAKE_SOURCE_DIR = /home/will/topics/refSources/sike/Reference_Implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build"
+CMAKE_BINARY_DIR = /home/will/topics/refSources/sike/Reference_Implementation/build
 
 # Include any dependencies generated for this target.
 include SIKEp434/CMakeFiles/kat_SIKEp434.dir/depend.make
@@ -59,16 +59,16 @@ include SIKEp434/CMakeFiles/kat_SIKEp434.dir/flags.make
 
 SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.o: SIKEp434/CMakeFiles/kat_SIKEp434.dir/flags.make
 SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.o: ../SIKEp434/PQCtestKAT_kem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.o"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp434" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.o   -c "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp434/PQCtestKAT_kem.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.o"
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp434 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.o   -c /home/will/topics/refSources/sike/Reference_Implementation/SIKEp434/PQCtestKAT_kem.c
 
 SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.i"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp434" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp434/PQCtestKAT_kem.c" > CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp434 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/will/topics/refSources/sike/Reference_Implementation/SIKEp434/PQCtestKAT_kem.c > CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.i
 
 SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.s"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp434" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp434/PQCtestKAT_kem.c" -o CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp434 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/will/topics/refSources/sike/Reference_Implementation/SIKEp434/PQCtestKAT_kem.c -o CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.s
 
 # Object files for target kat_SIKEp434
 kat_SIKEp434_OBJECTS = \
@@ -83,8 +83,8 @@ SIKEp434/kat_SIKEp434: SIKEp434/libsikep434_ref.a
 SIKEp434/kat_SIKEp434: libsike_ref_for_test.a
 SIKEp434/kat_SIKEp434: /usr/lib/x86_64-linux-gnu/libgmp.so
 SIKEp434/kat_SIKEp434: SIKEp434/CMakeFiles/kat_SIKEp434.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable kat_SIKEp434"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp434" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kat_SIKEp434.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable kat_SIKEp434"
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp434 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kat_SIKEp434.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 SIKEp434/CMakeFiles/kat_SIKEp434.dir/build: SIKEp434/kat_SIKEp434
@@ -92,10 +92,10 @@ SIKEp434/CMakeFiles/kat_SIKEp434.dir/build: SIKEp434/kat_SIKEp434
 .PHONY : SIKEp434/CMakeFiles/kat_SIKEp434.dir/build
 
 SIKEp434/CMakeFiles/kat_SIKEp434.dir/clean:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp434" && $(CMAKE_COMMAND) -P CMakeFiles/kat_SIKEp434.dir/cmake_clean.cmake
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp434 && $(CMAKE_COMMAND) -P CMakeFiles/kat_SIKEp434.dir/cmake_clean.cmake
 .PHONY : SIKEp434/CMakeFiles/kat_SIKEp434.dir/clean
 
 SIKEp434/CMakeFiles/kat_SIKEp434.dir/depend:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp434" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp434" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp434/CMakeFiles/kat_SIKEp434.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/will/topics/refSources/sike/Reference_Implementation /home/will/topics/refSources/sike/Reference_Implementation/SIKEp434 /home/will/topics/refSources/sike/Reference_Implementation/build /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp434 /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp434/CMakeFiles/kat_SIKEp434.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : SIKEp434/CMakeFiles/kat_SIKEp434.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation"
+CMAKE_SOURCE_DIR = /home/will/topics/refSources/sike/Reference_Implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build"
+CMAKE_BINARY_DIR = /home/will/topics/refSources/sike/Reference_Implementation/build
 
 # Include any dependencies generated for this target.
 include SIKEp610/CMakeFiles/sikep610_ref.dir/depend.make
@@ -59,16 +59,16 @@ include SIKEp610/CMakeFiles/sikep610_ref.dir/flags.make
 
 SIKEp610/CMakeFiles/sikep610_ref.dir/api.c.o: SIKEp610/CMakeFiles/sikep610_ref.dir/flags.make
 SIKEp610/CMakeFiles/sikep610_ref.dir/api.c.o: ../SIKEp610/api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object SIKEp610/CMakeFiles/sikep610_ref.dir/api.c.o"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp610" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sikep610_ref.dir/api.c.o   -c "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp610/api.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object SIKEp610/CMakeFiles/sikep610_ref.dir/api.c.o"
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp610 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sikep610_ref.dir/api.c.o   -c /home/will/topics/refSources/sike/Reference_Implementation/SIKEp610/api.c
 
 SIKEp610/CMakeFiles/sikep610_ref.dir/api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sikep610_ref.dir/api.c.i"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp610" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp610/api.c" > CMakeFiles/sikep610_ref.dir/api.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp610 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/will/topics/refSources/sike/Reference_Implementation/SIKEp610/api.c > CMakeFiles/sikep610_ref.dir/api.c.i
 
 SIKEp610/CMakeFiles/sikep610_ref.dir/api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sikep610_ref.dir/api.c.s"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp610" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp610/api.c" -o CMakeFiles/sikep610_ref.dir/api.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp610 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/will/topics/refSources/sike/Reference_Implementation/SIKEp610/api.c -o CMakeFiles/sikep610_ref.dir/api.c.s
 
 # Object files for target sikep610_ref
 sikep610_ref_OBJECTS = \
@@ -80,9 +80,9 @@ sikep610_ref_EXTERNAL_OBJECTS =
 SIKEp610/libsikep610_ref.a: SIKEp610/CMakeFiles/sikep610_ref.dir/api.c.o
 SIKEp610/libsikep610_ref.a: SIKEp610/CMakeFiles/sikep610_ref.dir/build.make
 SIKEp610/libsikep610_ref.a: SIKEp610/CMakeFiles/sikep610_ref.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libsikep610_ref.a"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp610" && $(CMAKE_COMMAND) -P CMakeFiles/sikep610_ref.dir/cmake_clean_target.cmake
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp610" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sikep610_ref.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libsikep610_ref.a"
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp610 && $(CMAKE_COMMAND) -P CMakeFiles/sikep610_ref.dir/cmake_clean_target.cmake
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp610 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sikep610_ref.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 SIKEp610/CMakeFiles/sikep610_ref.dir/build: SIKEp610/libsikep610_ref.a
@@ -90,10 +90,10 @@ SIKEp610/CMakeFiles/sikep610_ref.dir/build: SIKEp610/libsikep610_ref.a
 .PHONY : SIKEp610/CMakeFiles/sikep610_ref.dir/build
 
 SIKEp610/CMakeFiles/sikep610_ref.dir/clean:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp610" && $(CMAKE_COMMAND) -P CMakeFiles/sikep610_ref.dir/cmake_clean.cmake
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp610 && $(CMAKE_COMMAND) -P CMakeFiles/sikep610_ref.dir/cmake_clean.cmake
 .PHONY : SIKEp610/CMakeFiles/sikep610_ref.dir/clean
 
 SIKEp610/CMakeFiles/sikep610_ref.dir/depend:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp610" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp610" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp610/CMakeFiles/sikep610_ref.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/will/topics/refSources/sike/Reference_Implementation /home/will/topics/refSources/sike/Reference_Implementation/SIKEp610 /home/will/topics/refSources/sike/Reference_Implementation/build /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp610 /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp610/CMakeFiles/sikep610_ref.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : SIKEp610/CMakeFiles/sikep610_ref.dir/depend
 

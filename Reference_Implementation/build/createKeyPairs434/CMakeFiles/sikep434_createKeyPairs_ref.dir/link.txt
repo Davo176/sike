@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsikep434_createKeyPairs_ref.a  CMakeFiles/sikep434_createKeyPairs_ref.dir/api.c.o
+/usr/bin/ranlib libsikep434_createKeyPairs_ref.a

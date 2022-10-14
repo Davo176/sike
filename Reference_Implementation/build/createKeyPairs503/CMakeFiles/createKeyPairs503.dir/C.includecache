@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../symmetric/aes.h
+stdint.h
+-
+
+../symmetric/rng.h
+stdio.h
+-
+aes.h
+-
+
+/home/will/topics/refSources/sike/Reference_Implementation/createKeyPairs503/api.h
+
+/home/will/topics/refSources/sike/Reference_Implementation/createKeyPairs503/createKeyPairs.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+rng.h
+-
+api.h
+/home/will/topics/refSources/sike/Reference_Implementation/createKeyPairs503/api.h
+

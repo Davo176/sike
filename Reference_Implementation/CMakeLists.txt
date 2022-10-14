@@ -61,3 +61,27 @@ add_subdirectory(addRand503)
 add_subdirectory(addRand610)
 
 add_subdirectory(addRand751)
+
+add_subdirectory(createKeyPairs434)
+
+add_subdirectory(createKeyPairs503)
+
+add_subdirectory(createKeyPairs610)
+
+add_subdirectory(createKeyPairs751)
+
+add_subdirectory(createEncapsulation434)
+
+add_subdirectory(createEncapsulation503)
+
+add_subdirectory(createEncapsulation610)
+
+add_subdirectory(createEncapsulation751)
+
+add_subdirectory(checkDecapsulations434)
+
+add_subdirectory(checkDecapsulations503)
+
+add_subdirectory(checkDecapsulations610)
+
+add_subdirectory(checkDecapsulations751)

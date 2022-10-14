@@ -46,7 +46,7 @@ montgomery.h
 
 ../symmetric/random.h
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/printing.c
+/home/will/topics/refSources/sike/Reference_Implementation/test/printing.c
 stdio.h
 -
 fp2.h
@@ -54,9 +54,9 @@ fp2.h
 montgomery.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/printing.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/printing.h
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test.c
+/home/will/topics/refSources/sike/Reference_Implementation/test/test.c
 gmp.h
 -
 stdio.h
@@ -66,31 +66,31 @@ memory.h
 sike_params.h
 -
 test_arith.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_arith.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_arith.h
 test_sike.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_sike.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_sike.h
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_arith.c
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_arith.c
 sike_params.h
 -
 stdio.h
 -
 test_arith.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_arith.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_arith.h
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_arith.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_arith.h
 sike_params.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_extras.c
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_extras.c
 test_extras.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_extras.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_extras.h
 time.h
 -
 stdlib.h
 -
 test_extras.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_extras.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_extras.h
 intrin.h
 -
 time.h
@@ -98,11 +98,11 @@ time.h
 stdlib.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_extras.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_extras.h
 stdint.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_sike.c
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_sike.c
 encoding.h
 -
 api_generic.h
@@ -110,11 +110,11 @@ api_generic.h
 memory.h
 -
 test_sike.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_sike.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_sike.h
 printing.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/printing.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/printing.h
 test_extras.h
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_extras.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_extras.h
 stdio.h
 -
 random.h
@@ -122,7 +122,7 @@ random.h
 sike_params.h
 -
 
-/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/test/test_sike.h
+/home/will/topics/refSources/sike/Reference_Implementation/test/test_sike.h
 sike_params.h
 -
 stdlib.h

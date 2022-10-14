@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/SIKEp610
+# Install script for directory: /home/will/topics/refSources/sike/Reference_Implementation/SIKEp610
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

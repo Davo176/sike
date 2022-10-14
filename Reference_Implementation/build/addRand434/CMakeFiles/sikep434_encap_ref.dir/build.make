@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation"
+CMAKE_SOURCE_DIR = /home/will/topics/refSources/sike/Reference_Implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build"
+CMAKE_BINARY_DIR = /home/will/topics/refSources/sike/Reference_Implementation/build
 
 # Include any dependencies generated for this target.
 include addRand434/CMakeFiles/sikep434_encap_ref.dir/depend.make
@@ -59,16 +59,16 @@ include addRand434/CMakeFiles/sikep434_encap_ref.dir/flags.make
 
 addRand434/CMakeFiles/sikep434_encap_ref.dir/api.c.o: addRand434/CMakeFiles/sikep434_encap_ref.dir/flags.make
 addRand434/CMakeFiles/sikep434_encap_ref.dir/api.c.o: ../addRand434/api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object addRand434/CMakeFiles/sikep434_encap_ref.dir/api.c.o"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand434" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sikep434_encap_ref.dir/api.c.o   -c "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand434/api.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object addRand434/CMakeFiles/sikep434_encap_ref.dir/api.c.o"
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand434 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sikep434_encap_ref.dir/api.c.o   -c /home/will/topics/refSources/sike/Reference_Implementation/addRand434/api.c
 
 addRand434/CMakeFiles/sikep434_encap_ref.dir/api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sikep434_encap_ref.dir/api.c.i"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand434" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand434/api.c" > CMakeFiles/sikep434_encap_ref.dir/api.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand434 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/will/topics/refSources/sike/Reference_Implementation/addRand434/api.c > CMakeFiles/sikep434_encap_ref.dir/api.c.i
 
 addRand434/CMakeFiles/sikep434_encap_ref.dir/api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sikep434_encap_ref.dir/api.c.s"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand434" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand434/api.c" -o CMakeFiles/sikep434_encap_ref.dir/api.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand434 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/will/topics/refSources/sike/Reference_Implementation/addRand434/api.c -o CMakeFiles/sikep434_encap_ref.dir/api.c.s
 
 # Object files for target sikep434_encap_ref
 sikep434_encap_ref_OBJECTS = \
@@ -80,9 +80,9 @@ sikep434_encap_ref_EXTERNAL_OBJECTS =
 addRand434/libsikep434_encap_ref.a: addRand434/CMakeFiles/sikep434_encap_ref.dir/api.c.o
 addRand434/libsikep434_encap_ref.a: addRand434/CMakeFiles/sikep434_encap_ref.dir/build.make
 addRand434/libsikep434_encap_ref.a: addRand434/CMakeFiles/sikep434_encap_ref.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libsikep434_encap_ref.a"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand434" && $(CMAKE_COMMAND) -P CMakeFiles/sikep434_encap_ref.dir/cmake_clean_target.cmake
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand434" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sikep434_encap_ref.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libsikep434_encap_ref.a"
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand434 && $(CMAKE_COMMAND) -P CMakeFiles/sikep434_encap_ref.dir/cmake_clean_target.cmake
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand434 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sikep434_encap_ref.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 addRand434/CMakeFiles/sikep434_encap_ref.dir/build: addRand434/libsikep434_encap_ref.a
@@ -90,10 +90,10 @@ addRand434/CMakeFiles/sikep434_encap_ref.dir/build: addRand434/libsikep434_encap
 .PHONY : addRand434/CMakeFiles/sikep434_encap_ref.dir/build
 
 addRand434/CMakeFiles/sikep434_encap_ref.dir/clean:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand434" && $(CMAKE_COMMAND) -P CMakeFiles/sikep434_encap_ref.dir/cmake_clean.cmake
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build/addRand434 && $(CMAKE_COMMAND) -P CMakeFiles/sikep434_encap_ref.dir/cmake_clean.cmake
 .PHONY : addRand434/CMakeFiles/sikep434_encap_ref.dir/clean
 
 addRand434/CMakeFiles/sikep434_encap_ref.dir/depend:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/addRand434" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand434" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/addRand434/CMakeFiles/sikep434_encap_ref.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/will/topics/refSources/sike/Reference_Implementation /home/will/topics/refSources/sike/Reference_Implementation/addRand434 /home/will/topics/refSources/sike/Reference_Implementation/build /home/will/topics/refSources/sike/Reference_Implementation/build/addRand434 /home/will/topics/refSources/sike/Reference_Implementation/build/addRand434/CMakeFiles/sikep434_encap_ref.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : addRand434/CMakeFiles/sikep434_encap_ref.dir/depend
 

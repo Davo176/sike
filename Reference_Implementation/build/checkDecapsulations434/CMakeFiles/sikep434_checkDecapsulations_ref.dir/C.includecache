@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/api_generic.h
+sike_params.h
+-
+
+../include/fp.h
+gmp.h
+-
+
+../include/fp2.h
+fp.h
+-
+
+../include/montgomery.h
+fp2.h
+-
+
+../include/sike_params.h
+montgomery.h
+-
+
+/home/will/topics/refSources/sike/Reference_Implementation/checkDecapsulations434/api.c
+api.h
+/home/will/topics/refSources/sike/Reference_Implementation/checkDecapsulations434/api.h
+sike_params.h
+-
+api_generic.h
+-
+
+/home/will/topics/refSources/sike/Reference_Implementation/checkDecapsulations434/api.h
+

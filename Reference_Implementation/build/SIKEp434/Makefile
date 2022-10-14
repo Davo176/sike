@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation"
+CMAKE_SOURCE_DIR = /home/will/topics/refSources/sike/Reference_Implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build"
+CMAKE_BINARY_DIR = /home/will/topics/refSources/sike/Reference_Implementation/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/SIKEp434/CMakeFiles/progress.marks"
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build/CMakeFiles" 0
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles /home/will/topics/refSources/sike/Reference_Implementation/build/SIKEp434/CMakeFiles/progress.marks
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/will/topics/refSources/sike/Reference_Implementation/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/clean
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/preinstall
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/preinstall
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SIKEp434/CMakeFiles/kat_SIKEp434.dir/rule:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/CMakeFiles/kat_SIKEp434.dir/rule
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/CMakeFiles/kat_SIKEp434.dir/rule
 .PHONY : SIKEp434/CMakeFiles/kat_SIKEp434.dir/rule
 
 # Convenience name for target.
@@ -133,12 +133,12 @@ kat_SIKEp434: SIKEp434/CMakeFiles/kat_SIKEp434.dir/rule
 
 # fast build rule for target.
 kat_SIKEp434/fast:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f SIKEp434/CMakeFiles/kat_SIKEp434.dir/build.make SIKEp434/CMakeFiles/kat_SIKEp434.dir/build
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f SIKEp434/CMakeFiles/kat_SIKEp434.dir/build.make SIKEp434/CMakeFiles/kat_SIKEp434.dir/build
 .PHONY : kat_SIKEp434/fast
 
 # Convenience name for target.
 SIKEp434/CMakeFiles/sikep434_ref.dir/rule:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/CMakeFiles/sikep434_ref.dir/rule
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f CMakeFiles/Makefile2 SIKEp434/CMakeFiles/sikep434_ref.dir/rule
 .PHONY : SIKEp434/CMakeFiles/sikep434_ref.dir/rule
 
 # Convenience name for target.
@@ -148,7 +148,7 @@ sikep434_ref: SIKEp434/CMakeFiles/sikep434_ref.dir/rule
 
 # fast build rule for target.
 sikep434_ref/fast:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f SIKEp434/CMakeFiles/sikep434_ref.dir/build.make SIKEp434/CMakeFiles/sikep434_ref.dir/build
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f SIKEp434/CMakeFiles/sikep434_ref.dir/build.make SIKEp434/CMakeFiles/sikep434_ref.dir/build
 .PHONY : sikep434_ref/fast
 
 PQCtestKAT_kem.o: PQCtestKAT_kem.c.o
@@ -157,7 +157,7 @@ PQCtestKAT_kem.o: PQCtestKAT_kem.c.o
 
 # target to build an object file
 PQCtestKAT_kem.c.o:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f SIKEp434/CMakeFiles/kat_SIKEp434.dir/build.make SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.o
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f SIKEp434/CMakeFiles/kat_SIKEp434.dir/build.make SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.o
 .PHONY : PQCtestKAT_kem.c.o
 
 PQCtestKAT_kem.i: PQCtestKAT_kem.c.i
@@ -166,7 +166,7 @@ PQCtestKAT_kem.i: PQCtestKAT_kem.c.i
 
 # target to preprocess a source file
 PQCtestKAT_kem.c.i:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f SIKEp434/CMakeFiles/kat_SIKEp434.dir/build.make SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f SIKEp434/CMakeFiles/kat_SIKEp434.dir/build.make SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.i
 .PHONY : PQCtestKAT_kem.c.i
 
 PQCtestKAT_kem.s: PQCtestKAT_kem.c.s
@@ -175,7 +175,7 @@ PQCtestKAT_kem.s: PQCtestKAT_kem.c.s
 
 # target to generate assembly for a file
 PQCtestKAT_kem.c.s:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f SIKEp434/CMakeFiles/kat_SIKEp434.dir/build.make SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f SIKEp434/CMakeFiles/kat_SIKEp434.dir/build.make SIKEp434/CMakeFiles/kat_SIKEp434.dir/PQCtestKAT_kem.c.s
 .PHONY : PQCtestKAT_kem.c.s
 
 api.o: api.c.o
@@ -184,7 +184,7 @@ api.o: api.c.o
 
 # target to build an object file
 api.c.o:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f SIKEp434/CMakeFiles/sikep434_ref.dir/build.make SIKEp434/CMakeFiles/sikep434_ref.dir/api.c.o
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f SIKEp434/CMakeFiles/sikep434_ref.dir/build.make SIKEp434/CMakeFiles/sikep434_ref.dir/api.c.o
 .PHONY : api.c.o
 
 api.i: api.c.i
@@ -193,7 +193,7 @@ api.i: api.c.i
 
 # target to preprocess a source file
 api.c.i:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f SIKEp434/CMakeFiles/sikep434_ref.dir/build.make SIKEp434/CMakeFiles/sikep434_ref.dir/api.c.i
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f SIKEp434/CMakeFiles/sikep434_ref.dir/build.make SIKEp434/CMakeFiles/sikep434_ref.dir/api.c.i
 .PHONY : api.c.i
 
 api.s: api.c.s
@@ -202,7 +202,7 @@ api.s: api.c.s
 
 # target to generate assembly for a file
 api.c.s:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(MAKE) -f SIKEp434/CMakeFiles/sikep434_ref.dir/build.make SIKEp434/CMakeFiles/sikep434_ref.dir/api.c.s
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(MAKE) -f SIKEp434/CMakeFiles/sikep434_ref.dir/build.make SIKEp434/CMakeFiles/sikep434_ref.dir/api.c.s
 .PHONY : api.c.s
 
 # Help Target
@@ -233,6 +233,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/f/Education/Adelaide University/Year 2/Sem 2/Topics/Reference Implementations/Sike/SIKE/Reference_Implementation/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/will/topics/refSources/sike/Reference_Implementation/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

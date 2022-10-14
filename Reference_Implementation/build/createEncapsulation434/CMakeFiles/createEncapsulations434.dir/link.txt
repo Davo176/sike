@@ -1,0 +1,1 @@
+/usr/bin/cc -O3   CMakeFiles/createEncapsulations434.dir/createEncapsulations.c.o  -o createEncapsulations434  libsikep434_createEncapsulations_ref.a ../libsike_ref_for_test.a /usr/lib/x86_64-linux-gnu/libgmp.so 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsikep751_checkDecapsulations_ref.a  CMakeFiles/sikep751_checkDecapsulations_ref.dir/api.c.o
+/usr/bin/ranlib libsikep751_checkDecapsulations_ref.a
