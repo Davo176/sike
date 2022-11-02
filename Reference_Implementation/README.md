@@ -8,6 +8,13 @@ Implements the following procedures as part of SIKE:
 - KEM Key encapsulation mechanism
 - SIKE instantiations SIKEp434, SIKEp503, SIKEp610 and SIKEp751.
 
+# Additional Testing
+- cd build
+- cmake ..
+- make
+- run `./_/` (e.g. ./createKeypairs434/createKeypairs434)
+For interoperability testing you will have to manually swap between java and csharp
+
 ## Requirements
 
 - Cmake (version 3.5 or later)
